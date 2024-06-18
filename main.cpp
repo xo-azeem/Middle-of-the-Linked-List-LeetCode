@@ -21,7 +21,7 @@ public:
         if (!head)
             return nullptr;
 
-        // Rabbit and Turtle jump Algorithm approach
+        // Floyd's tortoise and hare algorithm approach
 
         ListNode* p = head;
         ListNode* q = head;
